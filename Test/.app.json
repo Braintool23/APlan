@@ -29,22 +29,21 @@
           "components": [
             {
               "type": "kendo-ui-mobile:field",
-              "name": "kg",
+              "name": "kgs",
               "title": "KG",
               "inputType": "number",
               "titlePosition": "left"
             },
             {
               "type": "kendo-ui-mobile:field",
-              "name": "pound",
-              "title": "Pfund",
+              "name": "result",
+              "title": "Lbs",
               "inputType": "number",
               "titlePosition": "left"
             }
           ],
           "name": "converterModel",
-          "submitButton": "Confirm",
-          "cancelButton": "Cancel"
+          "submitButton": "submit"
         }
       ],
       "title": "Converter",

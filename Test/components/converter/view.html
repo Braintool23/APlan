@@ -9,7 +9,7 @@
 
                         <span>KG</span>
 
-                        <input data-bind="value: converterModel.fields.kg" type="number">
+                        <input data-bind="value: converterModel.fields.kgs" type="number">
                     </label>
 
                 </li>
@@ -18,17 +18,16 @@
 
                     <label>
 
-                        <span>Pfund</span>
+                        <span>Lbs</span>
 
-                        <input data-bind="value: converterModel.fields.pound" type="number">
+                        <input data-bind="value: converterModel.fields.result" type="number">
                     </label>
 
                 </li>
             </ul>
 
             <div class="button-group">
-                <a data-role="button" data-bind="events: { click: converterModel.cancel }">Cancel</a>
-                <a class="primary" data-role="button" data-bind="events: { click: converterModel.submit }">Confirm</a>
+                <a class="primary" data-role="button" data-bind="events: { click: converterModel.submit }">submit</a>
             </div>
         </form>
         <!-- START_CUSTOM_CODE_converterModel -->
