@@ -36,12 +36,6 @@
             },
             {
               "type": "kendo-ui-mobile:field",
-              "name": "group",
-              "title": "My group",
-              "inputType": "group-separator"
-            },
-            {
-              "type": "kendo-ui-mobile:field",
               "name": "pound",
               "title": "Pfund",
               "inputType": "number",
