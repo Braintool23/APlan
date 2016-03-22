@@ -19,12 +19,49 @@
       "title": "Home View",
       "addToNavigation": true,
       "icon": "home"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "converter",
+      "components": [
+        {
+          "type": "kendo-ui-mobile:form",
+          "components": [
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "kg",
+              "title": "KG",
+              "inputType": "number",
+              "titlePosition": "left"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "group",
+              "title": "My group",
+              "inputType": "group-separator"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "pound",
+              "title": "Pfund",
+              "inputType": "number",
+              "titlePosition": "left"
+            }
+          ],
+          "name": "converterModel",
+          "submitButton": "Confirm",
+          "cancelButton": "Cancel"
+        }
+      ],
+      "title": "Converter",
+      "addToNavigation": true,
+      "icon": "bookmarks"
     }
   ],
   "dataProviders": [],
   "name": "kendoUiMobileApp",
   "navigation": "tabstrip",
-  "view": "home",
+  "view": "converter",
   "transition": "slide",
   "skin": "flat"
 }

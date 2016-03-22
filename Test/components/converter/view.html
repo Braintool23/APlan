@@ -1,0 +1,47 @@
+<div data-role="view" data-title="Converter" data-layout="main" data-model="app.converter" data-show="app.converter.onShow" data-after-show="app.converter.afterShow">
+    <div id="converterModel" class="form-view">
+        <form>
+            <ul class="form-content" data-role="listview" data-style="inset">
+                <li class="form-content-item">
+
+
+                    <label>
+
+                        <span>KG</span>
+
+                        <input data-bind="value: converterModel.fields.kg" type="number">
+                    </label>
+
+                </li>
+                <li class="group-separator">
+                    <h4 class="group-separator-header">My group</h4>
+                </li>
+                <li class="form-content-item">
+
+
+                    <label>
+
+                        <span>Pfund</span>
+
+                        <input data-bind="value: converterModel.fields.pound" type="number">
+                    </label>
+
+                </li>
+            </ul>
+
+            <div class="button-group">
+                <a data-role="button" data-bind="events: { click: converterModel.cancel }">Cancel</a>
+                <a class="primary" data-role="button" data-bind="events: { click: converterModel.submit }">Confirm</a>
+            </div>
+        </form>
+        <!-- START_CUSTOM_CODE_converterModel -->
+        <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+
+        <!-- END_CUSTOM_CODE_converterModel -->
+    </div>
+
+    <!-- START_CUSTOM_CODE_converter -->
+    <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+
+    <!-- END_CUSTOM_CODE_converter -->
+</div>
